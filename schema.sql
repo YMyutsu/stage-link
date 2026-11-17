@@ -1,0 +1,9 @@
+
+DROP TABLE IF EXISTS messages;
+
+CREATE TABLE messages (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT,
+  ALTER TABLE messages ADD COLUMN emoji TEXT DEFAULT '🙂';
+  text TEXT
+);
